@@ -16,9 +16,5 @@ def haversine(17.4484, 78.3830, 17.4425, 78.3816):
     distance = R * c
     return distance
 
-# Example usage
-17.4484, 78.3830 = 34.0522, -118.2437  # Los Angeles
-17.4425, 78.3816 = 40.7128, -74.0060   # New York
-
 distance = haversine(17.4484, 78.3830, 17.4425, 78.3816)
 print(f"Distance: {distance:.2f} km")
